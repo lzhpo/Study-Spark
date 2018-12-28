@@ -13,5 +13,7 @@
         <module>spark-02-json</module>
         <module>spark-03-mysql</module>
         <module>spark-04-hive</module>
+        <module>spark-05-streaming</module>
+        <module>spark-06-ml</module>
     </modules>
 </project>
