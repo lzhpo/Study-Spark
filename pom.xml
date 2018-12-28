@@ -15,5 +15,7 @@
         <module>spark-04-hive</module>
         <module>spark-05-streaming</module>
         <module>spark-06-ml</module>
+        <module>spark-07-rdd</module>
+        <module>spark-08-sparksql</module>
     </modules>
 </project>

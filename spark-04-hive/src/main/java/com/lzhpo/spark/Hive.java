@@ -38,7 +38,8 @@ public class Hive {
          * 加载数据到创建的表中
          *      -load
          */
-        //load加载数据到数据表中
+        //load加载数据到数据表中，注意这里是加载HDFS的数据到表中
+        //如果要加载本地的数据到表中--->spark.sql("LOAD DATA LOCAL INPATH 'file:///E:/Code/LearningBigData/spark-08-sparksql/src/File/kv1.txt' INTO TABLE db_spark.tb_src");
         session.sql("load data inpath '/file/tb_user.txt' into table db_spark.tb_user");
         session.sql("select * from db_spark.tb_user");
 

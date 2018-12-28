@@ -12,6 +12,8 @@
         <module name="spark-04-hive" />
         <module name="spark-05-streaming" />
         <module name="spark-06-ml" />
+        <module name="spark-07-rdd" />
+        <module name="spark-08-sparksql" />
       </profile>
     </annotationProcessing>
   </component>
