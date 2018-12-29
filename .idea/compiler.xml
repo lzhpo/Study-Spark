@@ -14,6 +14,7 @@
         <module name="spark-06-ml" />
         <module name="spark-07-rdd" />
         <module name="spark-08-sparksql" />
+        <module name="spark-09-case" />
       </profile>
     </annotationProcessing>
   </component>
