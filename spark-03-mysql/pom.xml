@@ -3,8 +3,8 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>root</artifactId>
-        <groupId>com.lzhpo.bigdata</groupId>
+        <groupId>com.lzhpo</groupId>
+        <artifactId>spark</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -16,32 +16,25 @@
         <dependency>
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-core_2.11</artifactId>
-            <version>2.3.2</version>
         </dependency>
         <dependency>
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-sql_2.11</artifactId>
-            <version>2.3.2</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <!-- mysql-connector-java -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.47</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-mllib -->
+        <!-- spark-mllib -->
         <dependency>
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-mllib_2.11</artifactId>
-            <version>2.3.2</version>
-            <scope>runtime</scope>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-hive -->
+        <!-- spark-hive -->
         <dependency>
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-hive_2.11</artifactId>
-            <version>2.3.2</version>
-            <scope>provided</scope>
         </dependency>
     </dependencies>
 </project>
